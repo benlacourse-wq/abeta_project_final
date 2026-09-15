@@ -1,0 +1,16 @@
+Aβ40 50mer WITH templates — H200 transfer bundle
+=================================================
+
+Original ABCFold input:
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB40_templates/ab40_50mer_with_templates/abc_ab40_50mer.json
+
+Failed-local staging source:
+/home/benla/abeta_project_final/recovery/boltz_ab40_50mer_with_templates/staging_abcfold_output
+
+ABCFold version: 1.1.4
+Boltz version: 2.2.1
+Seed: 1638627401
+
+The local run successfully completed MMseqs2/template preparation and
+then failed during Boltz inference because of CUDA VRAM exhaustion.
+The entire staging directory is preserved here.

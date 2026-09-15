@@ -1,0 +1,17 @@
+experiment_settings:
+  seeds:
+    - 1478292162
+  use_msa_server: true
+  use_templates: true
+  skip_existing: false
+
+pl_trainer_args:
+  accelerator: gpu
+  devices: 1
+  num_nodes: 1
+  precision: 32-true
+
+model_update:
+  presets:
+    - predict
+    - low_mem

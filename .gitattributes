@@ -1,0 +1,21 @@
+* filter=lfs diff=lfs merge=lfs -text
+
+# ...except normal source code / small human-readable project files
+.gitattributes -filter -diff -merge text
+.gitignore -filter -diff -merge text
+*.py -filter -diff -merge text
+*.sh -filter -diff -merge text
+*.bash -filter -diff -merge text
+*.md -filter -diff -merge text
+*.txt -filter -diff -merge text
+*.yaml -filter -diff -merge text
+*.yml -filter -diff -merge text
+*.toml -filter -diff -merge text
+*.ini -filter -diff -merge text
+*.cfg -filter -diff -merge text
+*.conf -filter -diff -merge text
+*.sql -filter -diff -merge text
+*.R -filter -diff -merge text
+*.r -filter -diff -merge text
+README* -filter -diff -merge text
+LICENSE* -filter -diff -merge text

@@ -1,0 +1,13 @@
+This downloaded Boltz job is NOT installed into the requested WITH-TEMPLATES condition.
+
+Source ZIP: /mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/result-AB42_20mer_Boltz2_with_templates-resubmit.zip
+Source SHA256: 4b4a0e6e6d758ee20055327dc9388bdf622727d16ed3497d7000cef547c3f7f5
+Requested target: /home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_20mer_with_templates
+Actual seed: 1478292162
+Five distinct model CIFs: YES
+result.yaml contains top-level templates block: False
+result.yaml contains template CIF/PDB declaration: False
+
+Conclusion: the Boltz input reaching boltz predict did not contain structural templates.
+These structures are retained only as recovery provenance and must not be labelled
+as the missing WITH-TEMPLATES ABCFold condition.

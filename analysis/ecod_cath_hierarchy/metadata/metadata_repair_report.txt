@@ -1,0 +1,24 @@
+Aβ EXPERIMENTAL METADATA REPAIR REPORT
+========================================================================
+Final representatives: 79 (Aβ40=33, Aβ42=46)
+Raw Amyloid Explorer rows: 82
+Raw entries excluded because they are not in the final 79: 9JB1, 9M5Q, 9UMH
+
+SOURCE CLASS (derived conservatively from supplied metadata)
+  In vitro / synthetic / unclear: 43
+  Human-derived: 23
+  Animal-derived: 13
+
+MODIFICATION STATUS
+  WT / unmodified: 60
+  Modified / mutant: 19
+
+Legacy residues_present count disagrees with chain_summary actual coordinate count: 75/79
+The final taxonomy uses chain_summary-derived coordinate residue coverage, not the legacy residues_present count.
+
+IMPORTANT SOURCE NOTE
+The Amyloid Explorer 'From Patient' tick is retained as raw provenance but is NOT used directly as a binary patient-derived variable.
+Animal-model entries with that tick are classified as Animal-derived. Explicit patient descriptions can recover human-derived entries even if the tick is blank.
+
+IMPORTANT RESOLUTION NOTE
+em_resolution_A is populated only for electron-microscopy structures; NMR numeric values are retained only in raw_resolution and are not treated as comparable EM resolution.

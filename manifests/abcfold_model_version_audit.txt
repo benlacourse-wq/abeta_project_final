@@ -1,0 +1,1980 @@
+==============================================================
+ABCFOLD MODEL VERSION / CHECKPOINT AUDIT
+Reference: Aβ42 30mer WITH templates
+==============================================================
+
+Condition:
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates
+
+===== RELEVANT FILES =====
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/abc_ab42_30mer.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/lightning_logs/version_0/hparams.yaml
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/abc_ab42_30mer_mmseqs_seed-1478292162_model_0_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/abc_ab42_30mer_mmseqs_seed-1478292162_model_1_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/abc_ab42_30mer_mmseqs_seed-1478292162_model_2_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/abc_ab42_30mer_mmseqs_seed-1478292162_model_3_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/abc_ab42_30mer_mmseqs_seed-1478292162_model_4_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/confidence_abc_ab42_30mer_mmseqs_seed-1478292162_model_0.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/confidence_abc_ab42_30mer_mmseqs_seed-1478292162_model_1.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/confidence_abc_ab42_30mer_mmseqs_seed-1478292162_model_2.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/confidence_abc_ab42_30mer_mmseqs_seed-1478292162_model_3.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/predictions/abc_ab42_30mer_mmseqs_seed-1478292162/confidence_abc_ab42_30mer_mmseqs_seed-1478292162_model_4.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/processed/manifest.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/processed/records/abc_ab42_30mer_mmseqs_seed-1478292162.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_1_confidences_aggregated.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_1_model_fixed_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_2_confidences_aggregated.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_2_model_fixed_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_3_confidences_aggregated.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_3_model_fixed_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_4_confidences_aggregated.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_4_model_fixed_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_5_confidences_aggregated.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/AB42_30mer_seed_1478292162_sample_5_model_fixed_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/AB42_30mer/seed_1478292162/timing.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/inference_query_set.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/summary.txt
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_sample_0_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_sample_1_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_sample_2_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_sample_3_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_sample_4_reactifptm.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_summary_confidence_sample_0.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_summary_confidence_sample_1.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_summary_confidence_sample_2.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_summary_confidence_sample_3.json
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162/AB42_30mer/seed_1478292162/predictions/AB42_30mer_summary_confidence_sample_4.json
+
+===== VERSION / MODEL / CHECKPOINT STRINGS =====
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/processed/records/abc_ab42_30mer_mmseqs_seed-1478292162.json:1:{"id": "abc_ab42_30mer_mmseqs_seed-1478292162", "structure": {"resolution": null, "method": null, "deposited": null, "released": null, "revised": null, "num_chains": 30, "num_interfaces": null, "pH": null, "temperature": null}, "chains": [{"chain_id": 0, "chain_name": "A", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 1, "chain_name": "B", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 2, "chain_name": "C", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 3, "chain_name": "D", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 4, "chain_name": "E", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 5, "chain_name": "F", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 6, "chain_name": "G", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 7, "chain_name": "H", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 8, "chain_name": "I", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 9, "chain_name": "J", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 10, "chain_name": "K", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 11, "chain_name": "L", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 12, "chain_name": "M", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 13, "chain_name": "N", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 14, "chain_name": "O", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 15, "chain_name": "P", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 16, "chain_name": "Q", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 17, "chain_name": "R", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 18, "chain_name": "S", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 19, "chain_name": "T", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 20, "chain_name": "U", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 21, "chain_name": "V", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 22, "chain_name": "W", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 23, "chain_name": "X", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 24, "chain_name": "Y", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 25, "chain_name": "Z", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 26, "chain_name": "AA", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 27, "chain_name": "AB", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 28, "chain_name": "AC", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 29, "chain_name": "AD", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}], "interfaces": [], "inference_options": {"pocket_constraints": [], "contact_constraints": []}, "templates": [{"name": "template_0", "query_chain": "H", "query_st": 0, "query_en": 37, "template_chain": "A", "template_st": 0, "template_en": 37, "force": false, "threshold": Infinity}, {"name": "template_1", "query_chain": "H", "query_st": 5, "query_en": 42, "template_chain": "A", "template_st": 0, "template_en": 37, "force": false, "threshold": Infinity}, {"name": "template_2", "query_chain": "H", "query_st": 0, "query_en": 37, "template_chain": "A", "template_st": 0, "template_en": 37, "force": false, "threshold": Infinity}, {"name": "template_3", "query_chain": "H", "query_st": 8, "query_en": 42, "template_chain": "A", "template_st": 0, "template_en": 34, "force": false, "threshold": Infinity}, {"name": "template_4", "query_chain": "H", "query_st": 8, "query_en": 42, "template_chain": "A", "template_st": 0, "template_en": 34, "force": false, "threshold": Infinity}, {"name": "template_5", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}, {"name": "template_6", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}, {"name": "template_7", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}, {"name": "template_8", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}], "md": null, "affinity": null}
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/processed/manifest.json:1:{"records": [{"id": "abc_ab42_30mer_mmseqs_seed-1478292162", "structure": {"resolution": null, "method": null, "deposited": null, "released": null, "revised": null, "num_chains": 30, "num_interfaces": null, "pH": null, "temperature": null}, "chains": [{"chain_id": 0, "chain_name": "A", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 1, "chain_name": "B", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 2, "chain_name": "C", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 3, "chain_name": "D", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 4, "chain_name": "E", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 5, "chain_name": "F", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 6, "chain_name": "G", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 7, "chain_name": "H", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 8, "chain_name": "I", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 9, "chain_name": "J", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 10, "chain_name": "K", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 11, "chain_name": "L", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 12, "chain_name": "M", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 13, "chain_name": "N", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 14, "chain_name": "O", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 15, "chain_name": "P", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 16, "chain_name": "Q", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 17, "chain_name": "R", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 18, "chain_name": "S", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 19, "chain_name": "T", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 20, "chain_name": "U", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 21, "chain_name": "V", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 22, "chain_name": "W", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 23, "chain_name": "X", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 24, "chain_name": "Y", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 25, "chain_name": "Z", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 26, "chain_name": "AA", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 27, "chain_name": "AB", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 28, "chain_name": "AC", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}, {"chain_id": 29, "chain_name": "AD", "mol_type": 0, "cluster_id": -1, "msa_id": "abc_ab42_30mer_mmseqs_seed-1478292162_0", "num_residues": 42, "valid": true, "entity_id": 0}], "interfaces": [], "inference_options": {"pocket_constraints": [], "contact_constraints": []}, "templates": [{"name": "template_0", "query_chain": "H", "query_st": 0, "query_en": 37, "template_chain": "A", "template_st": 0, "template_en": 37, "force": false, "threshold": Infinity}, {"name": "template_1", "query_chain": "H", "query_st": 5, "query_en": 42, "template_chain": "A", "template_st": 0, "template_en": 37, "force": false, "threshold": Infinity}, {"name": "template_2", "query_chain": "H", "query_st": 0, "query_en": 37, "template_chain": "A", "template_st": 0, "template_en": 37, "force": false, "threshold": Infinity}, {"name": "template_3", "query_chain": "H", "query_st": 8, "query_en": 42, "template_chain": "A", "template_st": 0, "template_en": 34, "force": false, "threshold": Infinity}, {"name": "template_4", "query_chain": "H", "query_st": 8, "query_en": 42, "template_chain": "A", "template_st": 0, "template_en": 34, "force": false, "threshold": Infinity}, {"name": "template_5", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}, {"name": "template_6", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}, {"name": "template_7", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}, {"name": "template_8", "query_chain": "H", "query_st": 8, "query_en": 40, "template_chain": "A", "template_st": 0, "template_en": 32, "force": false, "threshold": Infinity}], "md": null, "affinity": null}]}
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/lightning_logs/version_0/hparams.yaml:54:  activation_checkpointing: false
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/lightning_logs/version_0/hparams.yaml:62:  activation_checkpointing: false
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/lightning_logs/version_0/hparams.yaml:76:  activation_checkpointing: true
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/lightning_logs/version_0/hparams.yaml:125:  activation_checkpointing: true
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/boltz_AB42_30mer/boltz_results_abc_ab42_30mer_mmseqs_seed-1478292162/lightning_logs/version_0/hparams.yaml:179:checkpoint_diffusion_conditioning: true
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:4:        "output_dir": "ab42_30mer_with_templates/openfold_results_seed-1478292162",
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:22:        "enable_checkpointing": true,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:48:    "inference_ckpt_path": "/home/adam/.openfold3/of3-p2-155k.pt",
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:49:    "inference_ckpt_name": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:50:    "cache_path": "/home/adam/.openfold3",
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:58:        "multiprocessing_context": "openfold-default",
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:138:        "server_user_agent": "openfold",
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:153:        "max_release_date": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json:154:        "min_release_date_diff": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:37:        "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:38:        "ckpt_intermediate_steps": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:73:    "architecture": {
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:114:                "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:115:                "ckpt_intermediate_steps": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:312:                "fuse_projection_weights": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:313:                "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:314:                "ckpt_per_template": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:457:                "fuse_projection_weights": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:458:                "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:670:            "fuse_projection_weights": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:671:            "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:914:                "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:915:                "ckpt_intermediate_steps": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:1066:                "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:1157:                "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:1277:                    "fuse_projection_weights": false,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json:1278:                    "blocks_per_ckpt": null,
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/abc_ab42_30mer.json:47:    "version": 2
+
+===== OPENFOLD CONFIG FILES =====
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json
+------------------------------------------------------------
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/experiment_config.json
+{
+    "experiment_settings": {
+        "mode": "predict",
+        "output_dir": "ab42_30mer_with_templates/openfold_results_seed-1478292162",
+        "log_dir": null,
+        "seeds": [
+            1478292162
+        ],
+        "num_seeds": null,
+        "use_msa_server": false,
+        "use_templates": true,
+        "skip_existing": false
+    },
+    "pl_trainer_args": {
+        "max_epochs": 1000,
+        "accelerator": "gpu",
+        "precision": "32-true",
+        "num_nodes": 1,
+        "devices": 1,
+        "profiler": null,
+        "log_every_n_steps": 1,
+        "enable_checkpointing": true,
+        "enable_model_summary": false,
+        "accumulate_grad_batches": 1,
+        "gradient_clip_val": null,
+        "gradient_clip_algorithm": null,
+        "deepspeed_config_path": null,
+        "distributed_timeout": "PT30M",
+        "mpi_plugin": false,
+        "use_distributed_sampler": true
+    },
+    "model_update": {
+        "presets": [
+            "predict",
+            "low_mem"
+        ],
+        "custom": {
+            "settings": {
+                "memory": {
+                    "eval": {
+                        "use_cueq_triangle_kernels": true,
+                        "use_deepspeed_evo_attention": false
+                    }
+                }
+            }
+        }
+    },
+    "inference_ckpt_path": "/home/adam/.openfold3/of3-p2-155k.pt",
+    "inference_ckpt_name": null,
+    "cache_path": "/home/adam/.openfold3",
+    "data_module_args": {
+        "batch_size": 1,
+        "data_seed": 1478292162,
+        "num_workers": 10,
+        "prefetch_factor": null,
+        "num_workers_validation": 4,
+        "prefetch_factor_validation": null,
+        "multiprocessing_context": "openfold-default",
+        "persistent_workers": false,
+        "epoch_len": 4
+    },
+    "dataset_config_kwargs": {
+        "ccd_file_path": null,
+        "msa": {
+            "max_rows_paired": 8191,
+            "max_rows": 16384,
+            "subsample_with_bands": false,
+            "min_chains_paired_partial": 2,
+            "pairing_mask_keys": [
+                "shared_by_two",
+                "less_than_600"
+            ],
+            "max_seq_per_species": 600,
+            "moltypes": [
+                0,
+                1
+            ],
+            "max_seq_counts": {
+                "uniref90_hits": 10000,
+                "uniprot_hits": 50000,
+                "bfd_uniclust_hits": 10000000,
+                "bfd_uniref_hits": 10000000,
+                "cfdb_uniref30": 10000000,
+                "mgnify_hits": 5000,
+                "rfam_hits": 10000,
+                "rnacentral_hits": 10000,
+                "nt_hits": 10000,
+                "concat_cfdb_uniref100_filtered": 10000000,
+                "mmseqs_colabfold": 16384,
+                "colabfold_main": 16384,
+                "colabfold_paired": 8192
+            },
+            "msas_to_pair": [
+                "uniprot_hits",
+                "uniprot"
+            ],
+            "aln_order": [
+                "uniref90_hits",
+                "bfd_uniclust_hits",
+                "bfd_uniref_hits",
+                "cfdb_uniref30",
+                "mgnify_hits",
+                "rfam_hits",
+                "rnacentral_hits",
+                "nt_hits",
+                "concat_cfdb_uniref100_filtered",
+                "mmseqs_colabfold",
+                "colabfold_main",
+                "dummy"
+            ],
+            "subsample_main": false,
+            "keep_subsampled_order": false,
+            "paired_msa_order": [
+                "colabfold_paired"
+            ]
+        },
+        "template": {
+            "n_templates": 4,
+            "take_top_k": true,
+            "min_n_tokens_per_chain": 5,
+            "distogram": {
+                "min_bin": 3.25,
+                "max_bin": 50.75,
+                "n_bins": 39
+            }
+        }
+    },
+    "output_writer_settings": {
+        "structure_format": "cif",
+        "full_confidence_output_format": "json",
+        "full_confidence_output_dtype": "float16",
+        "write_features": false,
+        "write_latent_outputs": false,
+        "write_full_confidence_scores": true
+    },
+    "msa_computation_settings": {
+        "msa_file_format": "npz",
+        "server_user_agent": "openfold",
+        "server_url": "https://api.colabfold.com/",
+        "save_mappings": true,
+        "msa_output_directory": "/tmp/of3-of-adam/colabfold_msas",
+        "cleanup_msa_dir": true
+    },
+    "template_preprocessor_settings": {
+        "mode": "predict",
+        "moltypes": [
+            0
+        ],
+        "max_sequences_parse": 200,
+        "max_seq_id": null,
+        "min_align": null,
+        "min_len": null,
+        "max_release_date": null,
+        "min_release_date_diff": null,
+        "max_templates": 20,
+        "cif_direct_min_score": 0.1,
+        "min_f_resolved": 0.1,
+        "fetch_missing_structures": true,
+        "create_precache": false,
+        "preparse_structures": false,
+        "create_logs": false,
+        "n_processes": 1,
+        "chunksize": 1,
+        "preprocess_timeout": 60,
+        "structure_directory": "/tmp/of3-of-adam/template_data/template_structures",
+        "structure_file_format": "cif",
+        "output_directory": "/tmp/of3-of-adam/template_data",
+        "precache_directory": null,
+        "structure_array_directory": null,
+        "cache_directory": "/tmp/of3-of-adam/template_data/template_cache",
+        "log_directory": null,
+        "ccd_file_path": null
+    }
+}
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/inference_query_set.json
+------------------------------------------------------------
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/inference_query_set.json
+{
+    "seeds": [
+        42
+    ],
+    "queries": {
+        "AB42_30mer": {
+            "query_name": "AB42_30mer",
+            "chains": [
+                {
+                    "molecule_type": "PROTEIN",
+                    "chain_ids": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I",
+                        "J",
+                        "K",
+                        "L",
+                        "M",
+                        "N",
+                        "O",
+                        "P",
+                        "Q",
+                        "R",
+                        "S",
+                        "T",
+                        "U",
+                        "V",
+                        "W",
+                        "X",
+                        "Y",
+                        "Z",
+                        "AA",
+                        "AB",
+                        "AC",
+                        "AD"
+                    ],
+                    "description": null,
+                    "sequence": "DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA",
+                    "non_canonical_residues": null,
+                    "smiles": null,
+                    "ccd_codes": null,
+                    "paired_msa_file_paths": null,
+                    "main_msa_file_paths": [
+                        "/tmp/tmpnvc3v98r/fa4caddfeddc4a409f0bd9475f64e77f"
+                    ],
+                    "template_alignment_file_path": null,
+                    "template_entry_chain_ids": [],
+                    "template_cif_paths": [
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_0.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_1.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_2.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_3.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_4.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_5.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_6.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_7.cif",
+                        "/tmp/tmpnvc3v98r/templates_1cfa0fdd4564481c8ee6bb3bc2c6a241/template_8.cif"
+                    ],
+                    "template_cif_chain_ids": null,
+                    "sdf_file_path": null
+                }
+            ],
+            "use_msas": true,
+            "use_paired_msas": false,
+            "use_main_msas": true,
+            "covalent_bonds": null
+        }
+    }
+}
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json
+------------------------------------------------------------
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162/model_config.json
+{
+    "settings": {
+        "memory": {
+            "train": {
+                "chunk_size": null,
+                "use_deepspeed_evo_attention": false,
+                "use_cueq_triangle_kernels": false,
+                "use_triton_triangle_kernels": false,
+                "use_lma": false,
+                "msa_module": {
+                    "swiglu_chunk_token_cutoff": null,
+                    "swiglu_seq_chunk_size": null
+                }
+            },
+            "eval": {
+                "chunk_size": 1024,
+                "tune_chunk_size": true,
+                "use_deepspeed_evo_attention": false,
+                "use_cueq_triangle_kernels": true,
+                "use_triton_triangle_kernels": false,
+                "use_lma": false,
+                "msa_module": {
+                    "swiglu_chunk_token_cutoff": null,
+                    "swiglu_seq_chunk_size": null
+                },
+                "per_sample_token_cutoff": 0,
+                "per_sample_atom_cutoff": 0,
+                "low_mem_validation": false,
+                "offload_inference": {
+                    "template_module": true,
+                    "msa_module": true,
+                    "confidence_heads": true,
+                    "token_cutoff": 0
+                }
+            }
+        },
+        "blocks_per_ckpt": null,
+        "ckpt_intermediate_steps": false,
+        "clear_cache_between_steps": true,
+        "train_confidence_only": false,
+        "optimizer": {
+            "learning_rate": 0.0018,
+            "beta1": 0.9,
+            "beta2": 0.95,
+            "eps": 1e-08
+        },
+        "lr_scheduler": {
+            "base_lr": 0.0,
+            "warmup_no_steps": 1000,
+            "start_decay_after_n_steps": 50000,
+            "decay_every_n_steps": 50000,
+            "decay_factor": 0.95
+        },
+        "ema": {
+            "decay": 0.999,
+            "submodules_to_update": null
+        },
+        "gradient_clipping": {
+            "per_sample_clipping": true,
+            "clip_val": 10.0
+        },
+        "manual_optimization": {
+            "accumulate_grad_batches": 1,
+            "log_lr": false
+        },
+        "model_selection_weight_scheme": "initial_training",
+        "debug": {
+            "log_grad_norm": false,
+            "log_extra_grad_metrics": false,
+            "profile_grad_logging": false
+        }
+    },
+    "architecture": {
+        "shared": {
+            "sync_seed": 0,
+            "c_s_input": 449,
+            "c_s": 384,
+            "c_z": 128,
+            "num_recycles": 3,
+            "use_confidence_emb_prob": 1.0,
+            "diffusion": {
+                "sigma_data": 16,
+                "no_samples": 48,
+                "no_mini_rollout_samples": 1,
+                "no_full_rollout_samples": 5,
+                "no_mini_rollout_steps": 20,
+                "no_full_rollout_steps": 200,
+                "use_conditioning_prob": 1.0
+            }
+        },
+        "input_embedder": {
+            "c_s_input": 449,
+            "c_s": 384,
+            "c_z": 128,
+            "max_relative_idx": 32,
+            "max_relative_chain": 2,
+            "atom_attn_enc": {
+                "c_s": 384,
+                "c_z": 128,
+                "c_atom_ref": {
+                    "element": 119,
+                    "name_chars": 256
+                },
+                "c_atom": 128,
+                "c_atom_pair": 16,
+                "c_token": 384,
+                "c_hidden": 32,
+                "no_heads": 4,
+                "no_blocks": 3,
+                "n_transition": 2,
+                "n_query": 32,
+                "n_key": 128,
+                "use_ada_layer_norm": true,
+                "blocks_per_ckpt": null,
+                "ckpt_intermediate_steps": false,
+                "inf": 1000000000.0,
+                "linear_init_params": {
+                    "ref_atom_emb": {
+                        "linear_feats": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_ref_offset": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_inv_sq_dists": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_valid_mask": {
+                            "bias": false,
+                            "init": "default"
+                        }
+                    },
+                    "noisy_pos_emb": {
+                        "linear_s": {
+                            "bias": false,
+                            "init": "final"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "final"
+                        },
+                        "linear_r": {
+                            "bias": false,
+                            "init": "default"
+                        }
+                    },
+                    "linear_l": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_m": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "pair_mlp_1": {
+                        "bias": false,
+                        "init": "relu"
+                    },
+                    "pair_mlp_2": {
+                        "bias": false,
+                        "init": "relu"
+                    },
+                    "pair_mlp_3": {
+                        "bias": false,
+                        "init": "final"
+                    },
+                    "diffusion_transformer": {
+                        "att_pair_bias": {
+                            "ada_ln": {
+                                "linear_g": {
+                                    "bias": true,
+                                    "init": "final"
+                                },
+                                "linear_s": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "linear_ada_out": {
+                                "bias": true,
+                                "init": "gating_ada_zero"
+                            },
+                            "linear_z": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "layer_norm_z": {
+                                "create_offset": false
+                            },
+                            "mha": {
+                                "linear_q": {
+                                    "bias": true,
+                                    "init": "default"
+                                },
+                                "linear_k": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_v": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_o": {
+                                    "bias": false,
+                                    "init": "default"
+                                }
+                            }
+                        },
+                        "cond_transition": {
+                            "ada_ln": {
+                                "linear_g": {
+                                    "bias": true,
+                                    "init": "final"
+                                },
+                                "linear_s": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_g": {
+                                "bias": true,
+                                "init": "gating_ada_zero"
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "default"
+                            }
+                        }
+                    },
+                    "linear_q": {
+                        "bias": false,
+                        "init": "default"
+                    }
+                },
+                "use_reentrant": false
+            },
+            "linear_init_params": {
+                "linear_s": {
+                    "bias": false,
+                    "init": "default"
+                },
+                "linear_z_i": {
+                    "bias": false,
+                    "init": "default"
+                },
+                "linear_z_j": {
+                    "bias": false,
+                    "init": "default"
+                },
+                "linear_relpos": {
+                    "bias": false,
+                    "init": "default"
+                },
+                "linear_token_bonds": {
+                    "bias": false,
+                    "init": "default"
+                }
+            }
+        },
+        "template": {
+            "c_t": 64,
+            "c_z": 128,
+            "linear_init_param": {
+                "linear_t": {
+                    "bias": false,
+                    "init": "default"
+                }
+            },
+            "template_pair_embedder": {
+                "c_in": 128,
+                "c_dgram": 39,
+                "c_aatype": 32,
+                "c_out": 64,
+                "linear_init_params": {
+                    "linear_a": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_z": {
+                        "bias": false,
+                        "init": "relu"
+                    }
+                }
+            },
+            "template_pair_stack": {
+                "c_t": 64,
+                "c_hidden_tri_att": 16,
+                "c_hidden_tri_mul": 64,
+                "no_blocks": 2,
+                "no_heads": 4,
+                "transition_type": "swiglu",
+                "pair_transition_n": 2,
+                "dropout_rate": 0.25,
+                "tri_mul_first": true,
+                "fuse_projection_weights": false,
+                "blocks_per_ckpt": null,
+                "ckpt_per_template": false,
+                "inf": 1000000000.0,
+                "linear_init_params": {
+                    "tri_mul": {
+                        "linear_a_p": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_a_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_b_p": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_b_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    },
+                    "fused_tri_mul": {
+                        "linear_ab_p": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_ab_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    },
+                    "tri_att": {
+                        "linear_z": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "mha": {
+                            "linear_q": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_k": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_v": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_o": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        }
+                    },
+                    "pair_transition": {
+                        "swiglu": {
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "relu": {
+                            "layers": {
+                                "bias": true,
+                                "init": "relu"
+                            },
+                            "linear_out": {
+                                "bias": true,
+                                "init": "final"
+                            }
+                        }
+                    }
+                },
+                "use_reentrant": false,
+                "tune_chunk_size": true
+            }
+        },
+        "msa": {
+            "msa_module_embedder": {
+                "c_m_feats": 34,
+                "c_m": 64,
+                "c_s_input": 449,
+                "subsample_main_msa": false,
+                "subsample_all_msa": true,
+                "min_subsampled_all_msa": 1024,
+                "max_subsampled_all_msa": 1024,
+                "linear_init_params": {
+                    "linear_m": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_s_input": {
+                        "bias": false,
+                        "init": "default"
+                    }
+                }
+            },
+            "msa_module": {
+                "c_m": 64,
+                "c_z": 128,
+                "c_hidden_msa_att": 8,
+                "c_hidden_opm": 32,
+                "c_hidden_mul": 128,
+                "c_hidden_pair_att": 32,
+                "no_heads_msa": 8,
+                "no_heads_pair": 4,
+                "no_blocks": 4,
+                "transition_type": "swiglu",
+                "transition_n": 4,
+                "msa_dropout": 0.15,
+                "pair_dropout": 0.25,
+                "opm_first": true,
+                "fuse_projection_weights": false,
+                "blocks_per_ckpt": null,
+                "inf": 1000000000.0,
+                "eps": 1e-08,
+                "linear_init_params": {
+                    "msa_row_att": {
+                        "linear_z": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "mha": {
+                            "linear_q": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_k": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_v": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_o": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        }
+                    },
+                    "msa_transition": {
+                        "swiglu": {
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "relu": {
+                            "layers": {
+                                "bias": true,
+                                "init": "relu"
+                            },
+                            "linear_out": {
+                                "bias": true,
+                                "init": "final"
+                            }
+                        }
+                    },
+                    "opm": {
+                        "linear_1": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_2": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_out": {
+                            "bias": true,
+                            "init": "final"
+                        }
+                    },
+                    "pair_block": {
+                        "tri_mul": {
+                            "linear_a_p": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_a_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_b_p": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_b_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_z": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "fused_tri_mul": {
+                            "linear_ab_p": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_ab_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_z": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "tri_att": {
+                            "linear_z": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "mha": {
+                                "linear_q": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_k": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_v": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_o": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            }
+                        },
+                        "pair_transition": {
+                            "swiglu": {
+                                "swiglu": {
+                                    "linear_a": {
+                                        "bias": false,
+                                        "init": "relu"
+                                    },
+                                    "linear_b": {
+                                        "bias": false,
+                                        "init": "relu"
+                                    }
+                                },
+                                "linear_out": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "relu": {
+                                "layers": {
+                                    "bias": true,
+                                    "init": "relu"
+                                },
+                                "linear_out": {
+                                    "bias": true,
+                                    "init": "final"
+                                }
+                            }
+                        }
+                    },
+                    "msa_pair_avg": {
+                        "linear_z": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_v": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_o": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    }
+                },
+                "use_reentrant": false,
+                "clear_cache_between_blocks": false,
+                "tune_chunk_size": true
+            }
+        },
+        "pairformer": {
+            "c_s": 384,
+            "c_z": 128,
+            "c_hidden_pair_bias": 24,
+            "no_heads_pair_bias": 16,
+            "c_hidden_mul": 128,
+            "c_hidden_pair_att": 32,
+            "no_heads_pair": 4,
+            "no_blocks": 48,
+            "transition_type": "swiglu",
+            "transition_n": 4,
+            "pair_dropout": 0.25,
+            "fuse_projection_weights": false,
+            "blocks_per_ckpt": null,
+            "inf": 1000000000.0,
+            "linear_init_params": {
+                "pair_block": {
+                    "tri_mul": {
+                        "linear_a_p": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_a_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_b_p": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_b_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    },
+                    "fused_tri_mul": {
+                        "linear_ab_p": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_ab_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    },
+                    "tri_att": {
+                        "linear_z": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "mha": {
+                            "linear_q": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_k": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_v": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_o": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        }
+                    },
+                    "pair_transition": {
+                        "swiglu": {
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "relu": {
+                            "layers": {
+                                "bias": true,
+                                "init": "relu"
+                            },
+                            "linear_out": {
+                                "bias": true,
+                                "init": "final"
+                            }
+                        }
+                    }
+                },
+                "att_pair_bias": {
+                    "linear_z": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "layer_norm_z": {
+                        "create_offset": true
+                    },
+                    "mha": {
+                        "linear_q": {
+                            "bias": true,
+                            "init": "default"
+                        },
+                        "linear_k": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_v": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_g": {
+                            "bias": false,
+                            "init": "gating"
+                        },
+                        "linear_o": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    }
+                },
+                "transition": {
+                    "swiglu": {
+                        "linear_a": {
+                            "bias": false,
+                            "init": "relu"
+                        },
+                        "linear_b": {
+                            "bias": false,
+                            "init": "relu"
+                        }
+                    },
+                    "linear_out": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                }
+            },
+            "use_reentrant": false,
+            "clear_cache_between_blocks": false,
+            "tune_chunk_size": true
+        },
+        "diffusion_module": {
+            "diffusion_module": {
+                "c_s": 384,
+                "c_token": 768,
+                "sigma_data": 16,
+                "linear_init_params": {
+                    "linear_s": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                }
+            },
+            "diffusion_conditioning": {
+                "c_s_input": 449,
+                "c_s": 384,
+                "c_z": 128,
+                "sigma_data": 16,
+                "c_fourier_emb": 256,
+                "max_relative_idx": 32,
+                "max_relative_chain": 2,
+                "seed_fourier_emb": 42,
+                "linear_init_params": {
+                    "linear_z": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "transition_z": {
+                        "swiglu": {
+                            "linear_a": {
+                                "bias": false,
+                                "init": "relu"
+                            },
+                            "linear_b": {
+                                "bias": false,
+                                "init": "relu"
+                            }
+                        },
+                        "linear_out": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    },
+                    "linear_s": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_n": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "transition_s": {
+                        "swiglu": {
+                            "linear_a": {
+                                "bias": false,
+                                "init": "relu"
+                            },
+                            "linear_b": {
+                                "bias": false,
+                                "init": "relu"
+                            }
+                        },
+                        "linear_out": {
+                            "bias": false,
+                            "init": "final"
+                        }
+                    }
+                },
+                "tune_chunk_size": true
+            },
+            "atom_attn_enc": {
+                "c_s": 384,
+                "c_z": 128,
+                "c_atom_ref": {
+                    "element": 119,
+                    "name_chars": 256
+                },
+                "c_atom": 128,
+                "c_atom_pair": 16,
+                "c_token": 768,
+                "c_hidden": 32,
+                "no_heads": 4,
+                "no_blocks": 3,
+                "n_transition": 2,
+                "n_query": 32,
+                "n_key": 128,
+                "use_ada_layer_norm": true,
+                "blocks_per_ckpt": null,
+                "ckpt_intermediate_steps": false,
+                "inf": 1000000000.0,
+                "linear_init_params": {
+                    "ref_atom_emb": {
+                        "linear_feats": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_ref_offset": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_inv_sq_dists": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "linear_valid_mask": {
+                            "bias": false,
+                            "init": "default"
+                        }
+                    },
+                    "noisy_pos_emb": {
+                        "linear_s": {
+                            "bias": false,
+                            "init": "final"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "final"
+                        },
+                        "linear_r": {
+                            "bias": false,
+                            "init": "default"
+                        }
+                    },
+                    "linear_l": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_m": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "pair_mlp_1": {
+                        "bias": false,
+                        "init": "relu"
+                    },
+                    "pair_mlp_2": {
+                        "bias": false,
+                        "init": "relu"
+                    },
+                    "pair_mlp_3": {
+                        "bias": false,
+                        "init": "final"
+                    },
+                    "diffusion_transformer": {
+                        "att_pair_bias": {
+                            "ada_ln": {
+                                "linear_g": {
+                                    "bias": true,
+                                    "init": "final"
+                                },
+                                "linear_s": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "linear_ada_out": {
+                                "bias": true,
+                                "init": "gating_ada_zero"
+                            },
+                            "linear_z": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "layer_norm_z": {
+                                "create_offset": false
+                            },
+                            "mha": {
+                                "linear_q": {
+                                    "bias": true,
+                                    "init": "default"
+                                },
+                                "linear_k": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_v": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_o": {
+                                    "bias": false,
+                                    "init": "default"
+                                }
+                            }
+                        },
+                        "cond_transition": {
+                            "ada_ln": {
+                                "linear_g": {
+                                    "bias": true,
+                                    "init": "final"
+                                },
+                                "linear_s": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_g": {
+                                "bias": true,
+                                "init": "gating_ada_zero"
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "default"
+                            }
+                        }
+                    },
+                    "linear_q": {
+                        "bias": false,
+                        "init": "default"
+                    }
+                },
+                "use_reentrant": false
+            },
+            "diffusion_transformer": {
+                "c_a": 768,
+                "c_s": 384,
+                "c_z": 128,
+                "c_hidden": 48,
+                "no_heads": 16,
+                "no_blocks": 24,
+                "n_transition": 2,
+                "use_ada_layer_norm": true,
+                "n_query": null,
+                "n_key": null,
+                "inf": 1000000000.0,
+                "blocks_per_ckpt": null,
+                "linear_init_params": {
+                    "att_pair_bias": {
+                        "ada_ln": {
+                            "linear_g": {
+                                "bias": true,
+                                "init": "final"
+                            },
+                            "linear_s": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "linear_ada_out": {
+                            "bias": true,
+                            "init": "gating_ada_zero"
+                        },
+                        "linear_z": {
+                            "bias": false,
+                            "init": "default"
+                        },
+                        "layer_norm_z": {
+                            "create_offset": false
+                        },
+                        "mha": {
+                            "linear_q": {
+                                "bias": true,
+                                "init": "default"
+                            },
+                            "linear_k": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_v": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "linear_g": {
+                                "bias": false,
+                                "init": "gating"
+                            },
+                            "linear_o": {
+                                "bias": false,
+                                "init": "default"
+                            }
+                        }
+                    },
+                    "cond_transition": {
+                        "ada_ln": {
+                            "linear_g": {
+                                "bias": true,
+                                "init": "final"
+                            },
+                            "linear_s": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        },
+                        "swiglu": {
+                            "linear_a": {
+                                "bias": false,
+                                "init": "relu"
+                            },
+                            "linear_b": {
+                                "bias": false,
+                                "init": "relu"
+                            }
+                        },
+                        "linear_g": {
+                            "bias": true,
+                            "init": "gating_ada_zero"
+                        },
+                        "linear_out": {
+                            "bias": false,
+                            "init": "default"
+                        }
+                    }
+                },
+                "use_reentrant": false
+            },
+            "atom_attn_dec": {
+                "c_atom": 128,
+                "c_atom_pair": 16,
+                "c_token": 768,
+                "c_hidden": 32,
+                "no_heads": 4,
+                "no_blocks": 3,
+                "n_transition": 2,
+                "n_query": 32,
+                "n_key": 128,
+                "use_ada_layer_norm": true,
+                "blocks_per_ckpt": null,
+                "inf": 1000000000.0,
+                "linear_init_params": {
+                    "linear_q_in": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "diffusion_transformer": {
+                        "att_pair_bias": {
+                            "ada_ln": {
+                                "linear_g": {
+                                    "bias": true,
+                                    "init": "final"
+                                },
+                                "linear_s": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "linear_ada_out": {
+                                "bias": true,
+                                "init": "gating_ada_zero"
+                            },
+                            "linear_z": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "layer_norm_z": {
+                                "create_offset": false
+                            },
+                            "mha": {
+                                "linear_q": {
+                                    "bias": true,
+                                    "init": "default"
+                                },
+                                "linear_k": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_v": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_o": {
+                                    "bias": false,
+                                    "init": "default"
+                                }
+                            }
+                        },
+                        "cond_transition": {
+                            "ada_ln": {
+                                "linear_g": {
+                                    "bias": true,
+                                    "init": "final"
+                                },
+                                "linear_s": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_g": {
+                                "bias": true,
+                                "init": "gating_ada_zero"
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "default"
+                            }
+                        }
+                    },
+                    "linear_q_out": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                },
+                "use_reentrant": false
+            }
+        },
+        "noise_schedule": {
+            "sigma_data": 16,
+            "s_max": 160.0,
+            "s_min": 0.0004,
+            "p": 7
+        },
+        "sample_diffusion": {
+            "gamma_0": 0.8,
+            "gamma_min": 1.0,
+            "noise_scale": 1.003,
+            "step_scale": 1.5
+        },
+        "heads": {
+            "max_atoms_per_token": 23,
+            "per_sample_token_cutoff": 0,
+            "pairformer_embedding": {
+                "pairformer": {
+                    "c_s": 384,
+                    "c_z": 128,
+                    "c_hidden_pair_bias": 24,
+                    "no_heads_pair_bias": 16,
+                    "c_hidden_mul": 128,
+                    "c_hidden_pair_att": 32,
+                    "no_heads_pair": 4,
+                    "no_blocks": 4,
+                    "transition_type": "swiglu",
+                    "transition_n": 4,
+                    "pair_dropout": 0.25,
+                    "fuse_projection_weights": false,
+                    "blocks_per_ckpt": null,
+                    "inf": 1000000000.0,
+                    "linear_init_params": {
+                        "pair_block": {
+                            "tri_mul": {
+                                "linear_a_p": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_a_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_b_p": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_b_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_z": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "fused_tri_mul": {
+                                "linear_ab_p": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_ab_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_z": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            },
+                            "tri_att": {
+                                "linear_z": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "mha": {
+                                    "linear_q": {
+                                        "bias": false,
+                                        "init": "default"
+                                    },
+                                    "linear_k": {
+                                        "bias": false,
+                                        "init": "default"
+                                    },
+                                    "linear_v": {
+                                        "bias": false,
+                                        "init": "default"
+                                    },
+                                    "linear_g": {
+                                        "bias": false,
+                                        "init": "gating"
+                                    },
+                                    "linear_o": {
+                                        "bias": false,
+                                        "init": "final"
+                                    }
+                                }
+                            },
+                            "pair_transition": {
+                                "swiglu": {
+                                    "swiglu": {
+                                        "linear_a": {
+                                            "bias": false,
+                                            "init": "relu"
+                                        },
+                                        "linear_b": {
+                                            "bias": false,
+                                            "init": "relu"
+                                        }
+                                    },
+                                    "linear_out": {
+                                        "bias": false,
+                                        "init": "final"
+                                    }
+                                },
+                                "relu": {
+                                    "layers": {
+                                        "bias": true,
+                                        "init": "relu"
+                                    },
+                                    "linear_out": {
+                                        "bias": true,
+                                        "init": "final"
+                                    }
+                                }
+                            }
+                        },
+                        "att_pair_bias": {
+                            "linear_z": {
+                                "bias": false,
+                                "init": "default"
+                            },
+                            "layer_norm_z": {
+                                "create_offset": true
+                            },
+                            "mha": {
+                                "linear_q": {
+                                    "bias": true,
+                                    "init": "default"
+                                },
+                                "linear_k": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_v": {
+                                    "bias": false,
+                                    "init": "default"
+                                },
+                                "linear_g": {
+                                    "bias": false,
+                                    "init": "gating"
+                                },
+                                "linear_o": {
+                                    "bias": false,
+                                    "init": "final"
+                                }
+                            }
+                        },
+                        "transition": {
+                            "swiglu": {
+                                "linear_a": {
+                                    "bias": false,
+                                    "init": "relu"
+                                },
+                                "linear_b": {
+                                    "bias": false,
+                                    "init": "relu"
+                                }
+                            },
+                            "linear_out": {
+                                "bias": false,
+                                "init": "final"
+                            }
+                        }
+                    },
+                    "use_reentrant": false,
+                    "clear_cache_between_blocks": false,
+                    "tune_chunk_size": true
+                },
+                "c_s_input": 449,
+                "c_z": 128,
+                "min_bin": 3.25,
+                "max_bin": 50.75,
+                "no_bin": 39,
+                "inf": 1000000000.0,
+                "linear_init_params": {
+                    "linear_i": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_j": {
+                        "bias": false,
+                        "init": "default"
+                    },
+                    "linear_distance": {
+                        "bias": false,
+                        "init": "default"
+                    }
+                }
+            },
+            "pae": {
+                "c_z": 128,
+                "c_out": 64,
+                "linear_init_params": {
+                    "linear": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                },
+                "enabled": true
+            },
+            "pde": {
+                "c_z": 128,
+                "c_out": 64,
+                "linear_init_params": {
+                    "linear": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                }
+            },
+            "lddt": {
+                "c_s": 384,
+                "c_out": 50,
+                "max_atoms_per_token": 23,
+                "linear_init_params": {
+                    "linear": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                }
+            },
+            "distogram": {
+                "c_z": 128,
+                "c_out": 64,
+                "linear_init_params": {
+                    "linear": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                },
+                "enabled": true
+            },
+            "experimentally_resolved": {
+                "c_s": 384,
+                "c_out": 2,
+                "max_atoms_per_token": 23,
+                "linear_init_params": {
+                    "linear": {
+                        "bias": false,
+                        "init": "final"
+                    }
+                }
+            }
+        },
+        "loss_module": {
+            "train_confidence_only": false,
+            "per_sample_atom_cutoff": 0,
+            "low_mem_validation": false,
+            "confidence_loss_names": [
+                "plddt",
+                "pde",
+                "experimentally_resolved",
+                "pae"
+            ],
+            "diffusion_loss_names": [
+                "bond",
+                "smooth_lddt",
+                "mse"
+            ],
+            "confidence": {
+                "plddt": {
+                    "no_bins": 50,
+                    "bin_min": 0.0,
+                    "bin_max": 1.0
+                },
+                "pde": {
+                    "no_bins": 64,
+                    "bin_min": 0.0,
+                    "bin_max": 32.0
+                },
+                "experimentally_resolved": {
+                    "no_bins": 2
+                },
+                "pae": {
+                    "angle_threshold": 25.0,
+                    "no_bins": 64,
+                    "bin_min": 0.0,
+                    "bin_max": 32.0,
+                    "enabled": true
+                },
+                "per_sample_atom_cutoff": 0,
+                "eps": 1e-08,
+                "inf": 1000000000.0
+            },
+            "diffusion": {
+                "sigma_data": 16,
+                "dna_weight": 5.0,
+                "rna_weight": 5.0,
+                "ligand_weight": 10.0,
+                "eps": 1e-08,
+                "chunk_size": null,
+                "use_sparse_loss": false
+            },
+            "distogram": {
+                "no_bins": 64,
+                "bin_min": 2.0,
+                "bin_max": 22.0,
+                "eps": 1e-08
+            }
+        }
+    },
+    "confidence": {
+        "per_sample_atom_cutoff": 0,
+        "low_mem_validation": false,
+        "plddt": {
+            "no_bins": 50,
+            "bin_min": 0,
+            "bin_max": 1
+        },
+        "pde": {
+            "bin_min": 0,
+            "bin_max": 32,
+            "no_bins": 64,
+            "return_probs": false
+        },
+        "pae": {
+            "bin_min": 0,
+            "bin_max": 32,
+            "no_bins": 64,
+            "return_probs": false
+        },
+        "distogram": {
+            "bin_min": 2,
+            "bin_max": 22,
+            "no_bins": 64,
+            "return_contact_probs": false
+        },
+        "ptm": {
+            "bin_min": 0,
+            "bin_max": 32,
+            "no_bins": 64
+        },
+        "sample_ranking": {
+            "full_complex": {
+                "ptm_weight": 0.2,
+                "iptm_weight": 0.8,
+                "disorder_weight": 0.5,
+                "has_clash_weight": 100.0,
+                "disorder_threshold": 0.581
+            },
+            "chain_pair_iptm": {
+                "enabled": true
+            },
+            "chain_ptm": {
+                "enabled": true
+            }
+        },
+        "clash": {
+            "min_distance": 1.1,
+            "clash_cutoff_num": 100,
+            "clash_cutoff_ratio": 0.5
+        },
+        "rasa": {
+            "cutoff": 0.581
+        }
+    }
+}
+
+===== PROTENIX DIRECTORY =====
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/protenix_AB42_30mer/protenix_results_seed-1478292162
+
+===== OPENFOLD DIRECTORY =====
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer
+/home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB42_templates/ab42_30mer_with_templates/openfold_AB42_30mer/openfold_results_seed-1478292162
+
+==============================================================
+DONE
+==============================================================

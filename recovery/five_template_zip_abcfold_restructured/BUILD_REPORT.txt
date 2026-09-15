@@ -1,0 +1,33 @@
+BUILD SUCCESSFUL
+
+The live ABCFold conditions were copied in full and were not modified.
+Five downloaded runs were renamed and injected into three replacement copies.
+
+Live baseline: /home/benla/abeta_project_final/ABC_Fold/ab40_ab42_results
+Ready-to-drop-in root: /home/benla/abeta_project_final/recovery/five_template_zip_abcfold_restructured/replacement_conditions
+
+READY-TO-DROP-IN CONDITIONS
+/home/benla/abeta_project_final/recovery/five_template_zip_abcfold_restructured/replacement_conditions/ABCFold_AB42_templates/ab42_20mer_with_templates
+/home/benla/abeta_project_final/recovery/five_template_zip_abcfold_restructured/replacement_conditions/ABCFold_AB40_templates/ab40_50mer_with_templates
+/home/benla/abeta_project_final/recovery/five_template_zip_abcfold_restructured/replacement_conditions/ABCFold_AB42_templates/ab42_50mer_with_templates
+
+EXACT 50MER BOLTZ PREDICTION PATHS FILLED
+/home/benla/abeta_project_final/recovery/five_template_zip_abcfold_restructured/replacement_conditions/ABCFold_AB40_templates/ab40_50mer_with_templates/boltz_results_abc_ab40_50mer_mmseqs_seed-1638627401/predictions/abc_ab40_50mer_mmseqs_seed-1638627401
+/home/benla/abeta_project_final/recovery/five_template_zip_abcfold_restructured/replacement_conditions/ABCFold_AB42_templates/ab42_50mer_with_templates/boltz_results_abc_ab42_50mer_mmseqs_seed-1478292162/predictions/abc_ab42_50mer_mmseqs_seed-1478292162
+
+SOURCE ZIP PROVENANCE
+AB42_20mer_with_templates-protenix.zip	/mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/AB42_20mer_with_templates-protenix.zip	sha256=16b680afa73672dc281e9eecbeb67aa7d79f2e6056e8029f506d9b9ca0475366
+result-AB42_20mer_OpenFold3_P2_with_templates.zip	/mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/result-AB42_20mer_OpenFold3_P2_with_templates.zip	sha256=d6e9096e8992d5964908f1a3d0967584465ca25029da5c83439498ca1d56a82b
+result-AB42_20mer_Boltz2_with_templates-resubmit.zip	/mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/result-AB42_20mer_Boltz2_with_templates-resubmit.zip	sha256=4b4a0e6e6d758ee20055327dc9388bdf622727d16ed3497d7000cef547c3f7f5
+result-AB40_50mer_Boltz2_with_templates_yamlrun.zip	/mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/result-AB40_50mer_Boltz2_with_templates_yamlrun.zip	sha256=432782b2ba8ada65bb996c5e0078986966bc4fae71f66547b28ba7cfa8979a83
+result-AB42_50mer_Boltz2_with_templates.zip	/mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/result-AB42_50mer_Boltz2_with_templates.zip	sha256=4dea3f977426f20edb57d4453752447e069280bfef393b97cfbeeb2d73c40003
+
+IMPORTANT SEED PROVENANCE
+The downloaded Aβ42 50mer Boltz ZIP records actual source seed 1638627401.
+Its files are renamed into the existing ABCFold target result folder/job
+seed-1478292162 so the established missing predictions path is filled.
+The original settings and source files are retained under source_online_metadata.
+
+WITH_TEMPLATES_USER_CONFIRMED: Ben confirmed on 2026-09-01 that the three Boltz jobs were configured manually with templates. The exported Tamarind result.yaml files do not retain a machine-readable template declaration.
+
+No ABCFold-only iPSAE/reactifpTM outputs absent from a ZIP were fabricated.

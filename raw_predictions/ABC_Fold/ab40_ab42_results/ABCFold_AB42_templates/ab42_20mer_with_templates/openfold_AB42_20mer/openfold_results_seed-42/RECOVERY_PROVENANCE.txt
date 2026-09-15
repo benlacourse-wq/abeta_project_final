@@ -1,0 +1,10 @@
+Aβ42 20mer OpenFold3 P2 WITH-TEMPLATES recovery
+Source ZIP: /mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/result-AB42_20mer_OpenFold3_P2_with_templates.zip
+Source SHA256: d6e9096e8992d5964908f1a3d0967584465ca25029da5c83439498ca1d56a82b
+Checkpoint: openfold3-p2-155k
+Actual OpenFold seed exported by Tamarind: 42
+Template mode: pdb100
+Non-empty template-entry list size: 104
+Models: 5 distinct CIFs
+*_model_fixed.cif files are byte-identical aliases of the downloaded models.
+ABCFold-specific reactifpTM/iPSAE files were not fabricated.

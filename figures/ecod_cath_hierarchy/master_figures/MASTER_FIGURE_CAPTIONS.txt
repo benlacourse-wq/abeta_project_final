@@ -1,0 +1,42 @@
+ECOD/CATH-INSPIRED MASTER FIGURE CAPTIONS
+===========================================
+
+Aβ40
+----
+Experimentally defined Aβ40 structural taxonomy and projection of predicted models.
+(A) Hierarchical structural classification of the 33 experimentally determined Aβ40
+representative chains, defined from exhaustive pairwise Foldseek qTM similarity and
+annotated with curated experimental metadata. The nested hierarchy comprises five
+broad fold classes, 11 structural families and 14 polymorph groups. Metadata are
+annotations only and were not used to determine the clustering. (B-D) Occupancy of
+the experimentally defined fold classes, structural families and polymorph groups,
+respectively, by 720 Aβ40 predictions from AlphaFold 3, Boltz-2, OpenFold3 and
+Protenix-v2, separated by template condition. Predicted structures were not included
+when defining the experimental taxonomy; each prediction was projected onto the
+hierarchy through its best experimental Foldseek match.
+
+Aβ42
+----
+Experimentally defined Aβ42 structural taxonomy and projection of predicted models.
+(A) Hierarchical structural classification of the 46 experimentally determined Aβ42
+representative chains, defined from exhaustive pairwise Foldseek qTM similarity and
+annotated with curated experimental metadata. The nested hierarchy comprises four
+broad fold classes, 11 structural families and 21 polymorph groups. Metadata are
+annotations only and were not used to determine the clustering. (B-D) Occupancy of
+the experimentally defined fold classes, structural families and polymorph groups,
+respectively, by 720 Aβ42 predictions from AlphaFold 3, Boltz-2, OpenFold3 and
+Protenix-v2, separated by template condition. Predicted structures were not included
+when defining the experimental taxonomy; each prediction was projected onto the
+hierarchy through its best experimental Foldseek match.
+
+Suggested Methods wording
+-------------------------
+An ECOD/CATH-inspired hierarchical structural taxonomy was constructed independently
+for Aβ40 and Aβ42 from experimentally determined representative chains only.
+Directional query-normalised Foldseek TM-scores were symmetrised for each experimental
+pair, converted to structural distances (1 - symmetric qTM), and clustered by
+average-linkage hierarchical clustering. Nested cut levels defined broad fold classes,
+structural families and polymorph groups. Experimental metadata were added only after
+structural classification and did not contribute to clustering. Predicted structures
+from AlphaFold 3, Boltz-2, OpenFold3 and Protenix-v2 were subsequently projected onto
+the fixed experimental hierarchy according to their highest-qTM experimental match.

@@ -1,0 +1,23 @@
+AB40 50mer with-template Boltz recovery
+========================================
+Date: 2026-08-31T14:08:34+01:00
+Input: /home/benla/abeta_project_final/raw_predictions/ABC_Fold/ab40_ab42_results/ABCFold_AB40_templates/ab40_50mer_with_templates/abc_ab40_50mer.json
+Seed: 1638627401
+ABCFold command: /home/benla/micromamba/envs/abcfold/bin/abcfold
+
+ABCFold version/help:
+usage: abcfold [-h] [--config-file CONFIG_FILE] [--override]
+               [--output_json OUTPUT_JSON] [--database DATABASE_DIR]
+               [--model_params MODEL_PARAMS] [--af3_sif_path AF3_SIF_PATH]
+               [-a] [--use_af3_template_search] [--save_distogram] [-b]
+               [--save_input] [-c] [-o]
+               [--inference_ckpt_path INFERENCE_CKPT_PATH] [-p] [-r]
+               [--mmseqs2] [--mmseqs_database MMSEQS_DATABASE] [--templates]
+               [--num_templates NUM_TEMPLATES]
+               [--target_id TARGET_ID [TARGET_ID ...]]
+               [--custom_template CUSTOM_TEMPLATE [CUSTOM_TEMPLATE ...]]
+               [--custom_template_chain CUSTOM_TEMPLATE_CHAIN [CUSTOM_TEMPLATE_CHAIN ...]]
+               [--number_of_models NUMBER_OF_MODELS]
+               [--num_recycles NUM_RECYCLES] [--no_visuals] [--no_server]
+               input_json output_dir
+abcfold: error: the following arguments are required: input_json, output_dir

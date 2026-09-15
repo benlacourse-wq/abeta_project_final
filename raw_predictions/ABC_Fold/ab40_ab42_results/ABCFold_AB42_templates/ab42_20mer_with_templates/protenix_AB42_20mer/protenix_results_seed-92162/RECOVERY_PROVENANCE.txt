@@ -1,0 +1,8 @@
+Aβ42 20mer Protenix WITH-TEMPLATES recovery
+Source ZIP: /mnt/c/Users/benla/OneDrive/Documents/Bioinformatics_MSc/LIFE703/Data/ABC_Fold/AB42_20mer_with_templates-protenix.zip
+Source SHA256: 16b680afa73672dc281e9eecbeb67aa7d79f2e6056e8029f506d9b9ca0475366
+Actual web-server seed: 92162
+Requested doctor seed: 1478292162 (not accepted by the web server)
+Template evidence: inputs.json proteinChain.templatesPath -> /mnt/bn/ai4s-vepfs/protenix_inference/infer_outputs/2026-08-31/65106e4e-783e-4e1d-b789-e60202acce92/msa/0/hmmsearch.a3m
+Models: 5 distinct CIFs
+ABCFold-specific reactifpTM/iPSAE files were not fabricated.
